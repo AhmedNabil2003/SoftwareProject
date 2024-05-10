@@ -1,0 +1,177 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+header{
+  background-color:#222;
+   width: 100%;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 15px 100px;
+   color: white;
+}
+
+nav a{
+    text-decoration: none;
+    width: 95px;
+    color: white;
+   font-size: 1.1em;
+   font-weight: 500;
+   padding-right: 30px;
+   
+}
+nav a:hover{
+    opacity: .8;
+    color: #99c6ed;
+}
+section{
+    padding: 30px 150px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+input {
+  
+  padding: 10px;
+  height: 70px;
+  width: 400px;
+  direction: ltr;
+  font-size: 25px;
+  margin: 0 5px;
+  border-radius: 15px;
+}
+.Explore{
+  background-color:#222 ;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
+button {
+  background-color:#222 ;
+  width: 90px;
+  height: 67px;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px;
+
+}
+button:hover,.Explore :hover{
+  opacity: .8;
+    color: #99c6ed;
+}
+.main{
+   width:100%;
+   position: relative;
+   text-align: center;
+   padding: 110px 150px;
+   background-image: url(imagess.jpg) ;
+   background-size:cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.main h1{
+    font-size: 2.5em;
+}
+ p{
+    font-size: 1.4em;
+   display:block;
+   position:relative;
+    
+}
+h3{
+    display: block;
+    color: #337ab7;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+}
+
+
+.content img{
+  position: relative;
+    width: 280px;
+    margin: 15px; 
+}
+div{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    background-color: white;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+li{
+    
+    width: 100%;
+    background-color:#f8f6f6;
+    margin: 0px 10px 10px 10px;
+    padding: 15px;
+  
+    width: 100%;
+    
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding:9px;
+    background-color: white;
+}
+.distinations{
+  display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding:9px;
+    background-color: white;
+}
+
+
+
+/*           footer           */
+footer{
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+footer .social-icon{
+ width: 50%;
+ padding-top: 10px;
+ display: flex;
+ align-items: center;
+}
+footer div a{
+    color: white;
+}
+footer div a:hover{
+    color: rgb(133, 133, 133);
+}
+footer p{
+    align-items: center;
+    font-size: 1.1em;
+}
