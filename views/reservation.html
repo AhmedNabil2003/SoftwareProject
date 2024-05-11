@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="auto">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../home/logo.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/reservation.css" />
+    <link rel="icon" href="logo.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <a href="../home/home.html"><img src="../home/llogo.jpg" /></a>
+      <nav>
+        <a href="../home/home.html">Home</a>
+        <a href="../hotels/Hotels.html">Hotels</a>
+        <a href="../sgin_up/sginup.html">Register</a>
+        <a href="../login/login.html">Log In</a>
+      </nav>
+    </header>
+    
+    <h1>Hotel Reservation Form</h1>
+    <br>
+    <section class="container">
+      <form id="reservationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="hotel-name">Hotel Name:</label>
+
+        <input type="text" id="hotel-name" name="hotel-name" required><br>
+        <label for="checkIn">Check-in Date:</label>
+
+        <input type="date" id="checkIn" name="checkIn" required><br>
+      
+        <label for="checkOut">Check-out Date:</label>
+        <input type="date" id="checkOut" name="checkOut" required><br>
+      
+        <label for="rooms">Number of Rooms:</label>
+        <input type="number" id="rooms" name="rooms" min="1" required><br>
+      
+        <button type="submit">Submit Reservation</button>
+      </form>
+    </section>
+    <br>
+    <footer>
+      <div class="social-icon">
+        <a target="_blank" href="https://www.facebook.com/mostafa.mansour.319247">
+          <i class="fa-brands fa-facebook-f fa-fw fa-2x"></i>
+        </a>
+        <a target="_blank" href="https://github.com/MOSTAFA-MANSOUR72">
+          <i class="fa-brands fa-github fa-fw fa-2x"></i>
+        </a>
+        <a target="_blank" href="#">
+          <i class="fa-brands fa-twitter fa-fw fa-2x"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/mostafa_mansour762/">
+          <i class="fa-brands fa-instagram fa-fw fa-2x"></i>
+        </a>
+      
+      </div>
+      <p>made by <b>mostafa mansour</b></p>
+    </footer>
+  </body>
+</html>
