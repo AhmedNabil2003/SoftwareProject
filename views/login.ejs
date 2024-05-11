@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Login Page</title>
+   <link rel="stylesheet" href="/css/style.css">
+</head>
+<script>
+    function validateForm() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        
+        if (username === "ahmed" && password === "12345678") {
+            alert("تم تسجيل الدخول بنجاح!");
+        } else {
+            alert("اسم المستخدم أو كلمة المرور غير صحيحة!");
+        }
+    }
+</script>
+
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="" method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" onclick="validateForm()">Login</button>
+            </div>
+            <div class="sign">
+                <h4>Don't have an account?</h4>
+                <a href="/user">Sign up</a>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a> 
+            </div>
+        </div>
+       
+
+ 
+            
+        </form>
+    </div>
+</body>
+</html>
