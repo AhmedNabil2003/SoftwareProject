@@ -1,17 +1,18 @@
 import { Router } from "express";
-import { create_user, index_user, login_user, store_user } from "../controllers/userController.js";
+import { check_user, show_login_screen, show_signup_screen, store_user } from "../controllers/userController.js";
 
 const userrouter = new Router();
 
-userrouter.get('/',index_user);
+// open signip screen
+userrouter.get('/',show_signup_screen);
 
-userrouter.get("/create",create_user);
-
-
+// insert a new user 
 userrouter.post('/',store_user);
 
+// open login screen
+userrouter.get("/login",show_login_screen);
 
-
-userrouter.get("/login",login_user);
+// loginng check
+userrouter.post('/login/check',check_user)
 
 export  default userrouter;

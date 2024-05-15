@@ -15,6 +15,10 @@ const hotelSchema = new Schema({
         type: Number,
         required: true,
     },
+    imgPath:{
+        type: String,
+        required: true,
+    }
 })
 
 
