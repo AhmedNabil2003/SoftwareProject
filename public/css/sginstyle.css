@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image:url('../images/hotel.jpg');
+    background-image:url('/imges/hotel.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
