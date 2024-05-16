@@ -71,7 +71,7 @@ button:hover,.Explore :hover{
    position: relative;
    text-align: center;
    padding: 110px 150px;
-   background-image: url(imagess.jpg) ;
+   background-image: url(/imges/imagess.jpg) ;
    background-size:cover;
    background-position: center;
    background-attachment: fixed;
